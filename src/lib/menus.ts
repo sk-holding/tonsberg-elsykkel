@@ -5,7 +5,6 @@ const main: NavLink[] = [
   { name: "Butikk", href: "/butikk" },
   { name: "Om oss", href: "/om-oss" },
   { name: "Kontakt", href: "/kontakt-oss" },
-  { name: "Verksted", href: "/verksted" },
 ];
 
 const support: NavLink[] = [

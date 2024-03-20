@@ -12,8 +12,11 @@ const Hero = () => {
     <section className={styles.wrapper}>
       <div className={styles.content}>
         <div>
-          <h1>Enter your headline</h1>
-          <h2>Sub headline to further explain your message</h2>
+          <h1>Er du ute etter elsykkel i Tønsberg?</h1>
+          <h2>
+            Da har du kommet til rett plass! Vi i Kajakk & Fritid har det du
+            trenger. Kom innom oss i dag for en trivelig elsykkelprat.
+          </h2>
         </div>
         <div className={styles.buttons}>
           <Link href="/vare-sykler" className="button button_tertiary">

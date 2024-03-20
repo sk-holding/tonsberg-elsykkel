@@ -12,14 +12,11 @@ const Footer = () => {
           <div>
             <img src="/images/logo_white.png" alt="E-Wheels logo" />
             <p>
-              Kajakk og Fritid har siden 2004 levert kvalitetsutstyr til folk i
-              hele Norge. Nå har vi åpnet Norges kanskje råeste butikk i
-              Fredrikstad.
-            </p>
-            <p>
-              Fra starten har selskapet vært dedikert til å tilby et omfattende
-              utvalg av produkter og tjenester samtidig som det opprettholder en
-              urokkelig standard for kvalitet og kundeservice.
+              Siden 2004 har Kajakk og Fritid vært en pålitelig leverandør av
+              førsteklasses utstyr til friluftsentusiaster over hele Norge. Fra
+              dag én har vi vært forpliktet til å tilby et bredt spekter av
+              produkter og tjenester samtidig som vi opprettholder en
+              uovertruffen standard for kvalitet og kundeservice.
             </p>
           </div>
           <Navigation menu={main} title="Info" />

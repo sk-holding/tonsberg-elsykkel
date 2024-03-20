@@ -36,8 +36,8 @@ const Kontakt = () => {
           <h3>Butikk</h3>
           <div className={styles.usp}>
             <img src="/icons/house.svg" alt="house icon" />
-            <a target="_blank" href={location.butikk}>
-              Dikeveien 21B, 1661 Rolvsøy
+            <a target="_blank" href={location.butikk.link}>
+              {location.butikk.address}
             </a>
           </div>
           <p>

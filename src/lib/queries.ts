@@ -25,7 +25,7 @@ buttonText
 }`
 
 const articleQuery = `
-*[_type == "article" && stavanger] | order(_createdAt desc) {
+*[_type == "article" && tonsberg] | order(_createdAt desc) {
 title,
 content,
 "image": image.asset->url,
@@ -34,7 +34,7 @@ buttonText
 }`
 
 const storeQuery = `
-*[_type == "stores" && slug.current == "kajakk-and-fritid-stavanger"] {
+*[_type == "stores" && slug.current == "kajakk-and-fritid-tonsberg"] {
 storeName,
 storeAddress,
 "image": image.asset->url,

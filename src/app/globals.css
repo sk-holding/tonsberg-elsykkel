@@ -9,7 +9,7 @@
     --light-gray-text: #cccccc;
     --gray-text: #525252;
     --dark-text: var(--primary-color);
-    --active-link: rgb(133, 16, 0);
+    --active-link: #003d6f;
 
     --max-width: 1200px;
 }
