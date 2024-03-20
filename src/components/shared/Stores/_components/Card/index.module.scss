@@ -1,0 +1,24 @@
+.wrapper {
+    img {
+        transition: all .3s;
+    }
+
+    &:hover img {
+        box-shadow: 0 0 0 1px rgb(111, 111, 111);
+    }
+
+    p:first-of-type {
+        color: var(--dark-text);
+        font-weight: 600;
+    }
+
+    p:nth-of-type(2) {
+        font-size: 0.85rem;
+        color: var(--gray-text);
+    }
+
+}
+
+a:has(.wrapper) {
+    border-bottom: none;
+}

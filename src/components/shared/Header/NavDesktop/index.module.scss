@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+
+    a {
+        border-bottom: none;
+    }
+
+    * {
+        color: var(--dark-text);
+        transition: all .3s;
+        
+        &:hover {
+            color: var(--active-link);
+        }
+    }
+    
+    .active {
+        font-weight: 800;    
+    }
+}

@@ -1,0 +1,28 @@
+.wrapper {
+    img {
+        transition: all .3s;
+    }
+
+    &:hover img {
+        box-shadow: 0 0 0 1px rgb(111, 111, 111);
+    }
+
+    .title {
+        color: var(--dark-text);
+        font-weight: 600;
+    }
+
+    .description {
+        font-size: 0.85rem;
+        color: var(--gray-text);
+    }
+
+    .price {
+        font-size: 0.85rem;
+    }
+
+}
+
+a:has(.wrapper) {
+    border-bottom: none;
+}

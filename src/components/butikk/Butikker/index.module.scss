@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+    .inner {
+        display: grid;
+        max-width: 25rem;
+    }
+}
+

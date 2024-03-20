@@ -1,0 +1,42 @@
+.wrapper {
+    background: url("/images/featured-bike_background.webp");
+    background-size: cover;
+    height: 70vh;
+    display: grid;
+    align-items: center;
+    position: relative;
+    margin-bottom: 4rem;
+
+    .inner {
+        display: grid;
+        grid-template-columns: 60% auto;
+        align-items: center;
+        z-index: 2;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            justify-content: center;
+            color: var(--light-text);
+        }
+    }
+
+    // overlay
+    &::after {
+        content: "";
+        background: rgba($color: #003256, $alpha: .5);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: 0;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: "850px") {
+    .inner {
+        grid-template-columns: auto !important;
+    }
+}
