@@ -33,3 +33,11 @@ export interface NavigationProps {
     menu: NavLink[];
     title?: string
 }
+
+export interface FeaturedBike {
+    title: string;
+    image: string;
+    content: any;
+    buttonText: string;
+    url: string
+}
