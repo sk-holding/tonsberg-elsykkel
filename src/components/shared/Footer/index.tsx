@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
       <div className={styles.footer}>
         <div className={`${styles.footer_inner} max-width`}>
-          <p>Copyright © 2024 Kajakk og Fritid AS - All rights reserved</p>
+          <p>Copyright © 2025 Kajakk og Fritid AS - All rights reserved</p>
           <ul>
             <li>
               <a href="https://www.facebook.com/kajakkogfritid">
